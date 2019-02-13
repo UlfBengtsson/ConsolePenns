@@ -6,7 +6,11 @@ namespace ConsolePenns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Pen pen = new WhiteboardPen(ConsoleColor.Blue, "Plastic", "ArtLine517",1.2);
+
+            pen.Write("Testing our pen");
+
+            Console.ReadKey(true);
         }
     }
 }
